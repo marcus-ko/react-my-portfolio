@@ -35,7 +35,14 @@ const App = props => {
               </ul> */}
              
             </div>
-      <ul className={`menuNav ${navbarOpen ? "showMenu" :""}`}></ul>
+      <ul className={`menuNav ${navbarOpen ? "showMenu" :""}`}>
+        <li>
+          <NavLink to="/" end onClick={handleToggle}>Home</NavLink>
+        </li>
+        <li><NavLink to="/resume" onClick={handleToggle}>Resume</NavLink></li>
+
+        <li><NavLink to="/contact" onClick={handleToggle}>Contact</NavLink></li>
+      </ul>
     <div className="nav-wrapper">
       <div className="left-nav">
         <div className="nav-logo">
@@ -49,7 +56,6 @@ const App = props => {
             Home      
           </NavLink>
           <NavLink to="/resume">Resume</NavLink>
-          {/* <NavLink to="/about">About</NavLink> */}
           <NavLink to="/contact">Contact</NavLink>
         </nav>
       </div>

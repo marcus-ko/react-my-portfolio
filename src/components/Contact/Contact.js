@@ -5,19 +5,6 @@ import {useRef} from 'react'
 import './Contact.scss'
 import Footer from "../Home/Footer"
 
-// const form = useRef();
-
-// const sendEmail = (e) => {
-//   e.preventDefault();
-
-//   emailjs.sendForm('service_xxy6z65', 'template_l6jbltc', form.current, 'F21LH7V3BB3Uw75Er')
-//   .then((result) => {
-//       console.log(result.text);
-//   }, (error) => {
-//       console.log(error.text);
-//   });
-// }
-
 export const Contact = () => {
   const form = useRef();
   const [submitted, setSubmitted] = useState(false);
@@ -38,24 +25,6 @@ export const Contact = () => {
           console.log(error.text);
       });
   };
-
- 
-  // const handleSubmit = () => {
-  //   setTimeout(() => {
-  //     setSubmitted(true);
-  //   }, 100);
-  // };
-
-  // if (submitted) {
-  //   return (
-  //     <>
-  //       <div className="text-2xl">Thank you!</div>
-  //       <div className="text-md">We'll be in touch soon.</div>
-  //     </>
-  //   );
-  // }
-
-
 
   return (
     <div>

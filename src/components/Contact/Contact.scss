@@ -1,12 +1,12 @@
 .card-container {
   .contact-wrapper {
-    width: 400px;
+    width: 94%;
     margin-left: auto;
     margin-right: auto;
     /* text-align: center; */
     display: flex;
     justify-content: center;
-    padding: 50px;
+    padding: 50px 0;
     background-color: #fff;
     margin-bottom: 10px;
     border-radius: 4px;
@@ -56,6 +56,15 @@
           background-color: #174a92;
         }
       }
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .card-container {
+    .contact-wrapper {
+      width: 400px;
+      padding: 50px;
     }
   }
 }
