@@ -1,7 +1,11 @@
 /* Mobile styles */
 .header-wrapper {
-  margin-bottom: 40px;
-  padding: 20px 0;
+  padding: 20px 20px;
+  text-align: center;
+  width: 300px;
+  /* border: 1px solid red; */
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .header-wrapper {
@@ -41,7 +45,8 @@
 
 @media only screen and (min-width: 768px) {
   .header-wrapper {
-    padding: 20px;
+    margin-bottom: 40px;
+    padding: 20px 0;
     width: 405px;
     margin-left: auto;
     margin-right: auto;
