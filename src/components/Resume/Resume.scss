@@ -1,0 +1,83 @@
+.horizontal-spacer {
+  padding-left: 10px;
+}
+.resume-container {
+  margin: 40px;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+
+  p {
+    margin: 0;
+    line-height: 1.4;
+    padding: 0;
+    font-size: 20px;
+    color: rgb(107, 107, 107);
+  }
+
+  .resume-main-title {
+    color: #111;
+    font: normal 32px helvetica;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    background-color: #E0E9F1;
+    width: 200px;
+    height: 36px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    top: -13px;
+  }
+  .resume-heading {
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+
+      .row {
+        display: flex;
+        justify-content: space-between;
+
+        .col {
+          li {
+            a {
+              margin-left: 5px;
+            }
+          }
+
+          li.resume-heading__profile-link {
+            display: flex;
+            justify-content: flex-end;
+            font-size: 20px;
+            
+            a {
+              color: #111;
+            }
+          }
+        }
+      }
+    }
+
+  }
+
+  .resume-title {
+    margin-top: 20px;
+    font-weight: 700;
+  }
+
+
+  .resume-section__wrapper {
+    padding: 10px 0;
+  }
+
+
+  ul {
+    margin: 0;
+  }
+}
+
+
+
+
+
