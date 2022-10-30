@@ -39,6 +39,8 @@
           padding-left: 10px;
           padding-top: 10px;
         }
+
+
       }
 
       button.btn-submit {
@@ -55,6 +57,14 @@
           
           background-color: #174a92;
         }
+      }
+
+      .contact-message {
+        display: none;
+      }
+
+      .contact-message-active {
+        display: block;
       }
     }
   }

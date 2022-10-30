@@ -10,9 +10,11 @@ import allstateThumb from '../../images/allstate-investors-logo-2.jpg'
 import githubLogo from '../../images/github-logo.jpg'
 import flickrApiLogo from '../../images/flickr-api-logo.jpg'
 import frontEndMentorLogo from '../../images/frontend-mentor-logo.jpg'
+import emptySpace from '../../images/empty-card.png'
 
 const Home = () => {
 
+  // Card data
   const [projects, setProjects] = useState([
     {
       title: 'Allstate Investors',
@@ -83,6 +85,14 @@ const Home = () => {
       language3: 'sass',
       language4: 'vercel',
       imgUrl: frontEndMentorLogo
+    },
+    {
+      title: 'work in progress',
+      imgUrl: emptySpace
+    },
+    {
+      title: 'work in progress',
+      imgUrl: emptySpace
     }
   ]);
 

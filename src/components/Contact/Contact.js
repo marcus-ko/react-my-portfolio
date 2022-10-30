@@ -20,7 +20,8 @@ export const Contact = () => {
     )
       .then((result) => {
           console.log(result.text);
-          alert("Thank you, we will be in touch!")
+          setSubmitted(true)
+          // alert("Thank you, we will be in touch!")
       }, (error) => {
           console.log(error.text);
       });
@@ -79,7 +80,10 @@ export const Contact = () => {
           <button type="submit" class="btn-submit" value="send">
               Submit
             </button>
+          <div>
+          <p className={`contact-message ${submitted ? "contact-message-active" :""}`}>Your message has been sent, thank you.</p>
 
+          </div>
         </form>
       </div>
       </div>
