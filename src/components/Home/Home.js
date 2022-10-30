@@ -11,6 +11,7 @@ import githubLogo from '../../images/github-logo.jpg'
 import flickrApiLogo from '../../images/flickr-api-logo.jpg'
 import frontEndMentorLogo from '../../images/frontend-mentor-logo.jpg'
 import emptySpace from '../../images/empty-card.png'
+import myPortfolioThumb from '../../images/myPortfolioThumb.png'
 
 const Home = () => {
 
@@ -26,6 +27,17 @@ const Home = () => {
       language4: 'jquery',
       language5: 'less',
       imgUrl: allstateThumb
+    },
+    {
+      title: 'HTML Portfolio',
+      link: 'https://github.com/marcus-ko/html-css-javascript-portfolio',
+      details: 'Responsive portfolio site created with HTML and CSS.  Form uses PHP to send mail.',
+      language1: 'html',
+      language2: 'sass',
+      language3: 'javascript',
+      language4: 'jquery',
+      language5: 'gulpjs',
+      imgUrl: githubLogo
     },
     {
       title: 'React Image Upload',
@@ -85,10 +97,6 @@ const Home = () => {
       language3: 'sass',
       language4: 'vercel',
       imgUrl: frontEndMentorLogo
-    },
-    {
-      title: 'work in progress',
-      imgUrl: emptySpace
     },
     {
       title: 'work in progress',
