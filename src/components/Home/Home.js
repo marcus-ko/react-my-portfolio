@@ -3,7 +3,6 @@ import {useState} from 'react'
 import './Home.css'
 import Header from '../Home/Header'
 import Carousel from '../Carousel/Carousel'
-// import Card from '../Card/Card'
 import Card2 from '../Card2/Card2'
 import Footer from '../Home/Footer'
 import allstateThumb from '../../images/allstate-investors-logo-2.jpg'
@@ -11,7 +10,6 @@ import githubLogo from '../../images/github-logo.jpg'
 import flickrApiLogo from '../../images/flickr-api-logo.jpg'
 import frontEndMentorLogo from '../../images/frontend-mentor-logo.jpg'
 import emptySpace from '../../images/empty-card.png'
-import myPortfolioThumb from '../../images/myPortfolioThumb.png'
 
 const Home = () => {
 
