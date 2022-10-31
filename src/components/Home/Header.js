@@ -2,7 +2,6 @@ import React from 'react';
 import './Header.scss';
 import TextLoop from 'react-text-loop';
 // import Link from "react-router";
-// import { BodyText } from "./ui";
 
 const Header = props => {
   return (

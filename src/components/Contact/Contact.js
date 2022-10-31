@@ -33,51 +33,47 @@ export const Contact = () => {
       <p className="card-heading">Contact me</p>
       <div className="contact-wrapper">
         <form ref={form} onSubmit={sendEmail}>
-          <div class="contact-field">
-              <label for="name">Name</label>
+          <div className="contact-field">
+              <label htmlFor="name">Name</label>
               <input
                 type="name"
                 name="to_name"
-                class=""
                 id="name"
                 placeholder="name"
               />
           </div>
 
-          <div class="contact-field">
-              <label for="name">Email Address</label>
+          <div className="contact-field">
+              <label htmlFor="name">Email Address</label>
               <input
                 type="email"
                 name="reply_to"
-                class=""
                 id="email"
                 placeholder="name@email.com"
               />
           </div>
 
-          <div class="contact-field">
-              <label for="name">Subject</label>
+          <div className="contact-field">
+              <label htmlFor="name">Subject</label>
               <input
                 type="text"
                 name="from_name"
-                class=""
                 id="subject"
                 placeholder="subject"
               />
           </div>
 
-          <div class="contact-field">
-              <label for="message">Message</label>
+          <div className="contact-field">
+              <label htmlFor="message">Message</label>
               <textarea
                 name="message"
-                class=""
                 id="message"
                 rows="5"
               >
               </textarea>
           </div>
 
-          <button type="submit" class="btn-submit" value="send">
+          <button type="submit" className="btn-submit" value="send">
               Submit
             </button>
           <div>
