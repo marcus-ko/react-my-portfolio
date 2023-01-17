@@ -2,7 +2,6 @@ import React from 'react'
 import {useState} from 'react'
 import './Home.css'
 import Header from '../Home/Header'
-import Carousel from '../Carousel/Carousel'
 import Card2 from '../Card2/Card2'
 import Footer from '../Home/Footer'
 import allstateThumb from '../../images/allstate-investors-logo-2.jpg'
@@ -14,7 +13,7 @@ import emptySpace from '../../images/empty-card.png'
 const Home = () => {
 
   // Card data
-  const [projects, setProjects] = useState([
+  const [projects] = useState([
     {
       title: 'Allstate Investors',
       link: 'https://www.allstateinvestors.com/',
@@ -102,7 +101,7 @@ const Home = () => {
     }
   ]);
 
-  const [titles, setTitle] = useState([
+  const [titles] = useState([
     {
       role: 'Front End Developer',
     },

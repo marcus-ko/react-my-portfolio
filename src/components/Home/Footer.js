@@ -26,16 +26,16 @@ const Footer = props => {
             <li>
               <div className="link-icon">
                 <a href="https://www.linkedin.com/in/marcusko/" target="_blank" rel="noreferrer">
-                  <img className="logo-small logo-alt-size" src={linkedInLogo}/>
-                  <img className="logo-small-inversed logo-alt-size" src={linkedInLogoInversed}/>
+                  <img className="logo-small logo-alt-size" src={linkedInLogo} alt="linkedin icon" />
+                  <img className="logo-small-inversed logo-alt-size" src={linkedInLogoInversed} alt="linkedin icon inverse" />
                 </a>
               </div>
             </li>
             <li>
               <div className="link-icon">
                 <a href="https://github.com/marcus-ko" target="_blank" rel="noreferrer">
-                  <img className="logo-small" src={githubLogo}/>
-                  <img className="logo-small-inversed" src={githubLogoInversed}/>
+                  <img className="logo-small" src={githubLogo} alt="github icon" />
+                  <img className="logo-small-inversed" src={githubLogoInversed} alt="github icon inversed"/>
                 </a>
               </div>
             </li>
