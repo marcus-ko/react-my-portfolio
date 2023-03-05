@@ -39,7 +39,7 @@ const Home = () => {
     {
       title: 'React Image Upload',
       details: 'I created a basic image upload app with react, node.js and AWS Javascript SDK which connects to an AWS S3 bucket to upload files. To access the demo, click here',
-      link: 'https://react-aws-image-upload.herokuapp.com/',
+      link: 'https://react-image-upload-9muo6vuje-marcus-ko.vercel.app/',
       language1: 'html',
       language2: 'react',
       language3: 'css',
@@ -48,7 +48,7 @@ const Home = () => {
     {
       title: 'React Todo App',
       details: 'A React todo list created with Create React app using class components and React Transition Group for toggling item views here',
-      link: 'https://react-todo-app-build.herokuapp.com/',
+      link: 'https://react-todo-h9zpndgt1-marcus-ko.vercel.app/',
       language1: 'html',
       language2: 'react',
       language3: 'sass',
@@ -57,7 +57,7 @@ const Home = () => {
     {
       title: 'Flickr Photo Locator',
       details: 'Using Flickr\'s API, I created a website which locates where the most Flickr photos were taken and displays the results.',
-      link: 'https://lit-ridge-99480.herokuapp.com/',
+      link: 'https://flickr-photo-locator.vercel.app/',
       language1: 'html',
       language2: 'css',
       language3: 'javascript',
