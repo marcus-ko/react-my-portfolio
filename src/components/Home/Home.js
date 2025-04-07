@@ -83,7 +83,7 @@ const Home = () => {
     {
       title: 'HTML Portfolio',
       link: 'https://github.com/marcus-ko/html-css-javascript-portfolio.git',
-      details: 'Responsive portfolio site created with HTML and CSS.  Form uses PHP to send mail.',
+      details: 'Previous responsive portfolio site created with HTML and CSS.  Form uses PHP to send mail.',
       languages: ['HTML', 'SASS', 'JavaScript', 'jQuery', 'GulpJS'],
       imgUrl: githubLogo
     }
