@@ -8,7 +8,7 @@ const Card2 = props => {
   return (
     <div className="card-container">
       {/* <hr /> */}
-      <p className="card-heading">Projects</p>
+      <h1 className="card-heading">Experience</h1>
 
       <div className="flex">
         {props.projects.map((project, index) => {
@@ -30,11 +30,9 @@ const Card2 = props => {
                   <p className="card-details-copy">{project.details}</p>
                   
                   <div className="card-language-wrapper">
-                    {project.language1 ? <p className="card-language">{project.language1}</p> : null}
-                    {project.language2 ? <p className="card-language">{project.language2}</p> : null}
-                    {project.language3 ? <p className="card-language">{project.language3}</p> : null}
-                    {project.language4 ? <p className="card-language">{project.language4}</p> : null}
-                    {project.language5 ? <p className="card-language">{project.language5}</p> : null}
+                    {project.languages?.map((lang, index) => (
+                      <p key={index} className="card-language">{lang}</p>
+                    ))}
                   </div>
    
               </div>

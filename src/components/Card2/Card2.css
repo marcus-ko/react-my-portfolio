@@ -27,19 +27,17 @@ a.card-link:hover:before {
 }
 
 
-p.card-heading {
+.card-heading {
   color: #111;
-  font: normal 32px helvetica;
+  font: normal 36px helvetica;
   text-align: center;
   position: relative;
   z-index: 1;
   background-color: #E0E9F1;
   width: 200px;
-  height: 36px;
-  padding: 10px;
   margin-left: auto;
   margin-right: auto;
-  top: -13px;
+  top: 0;
 }
 
 .card-language-wrapper {
@@ -83,11 +81,14 @@ hr {
   opacity: .7;
 } */
 .card-wrapper {
+  display:flex;
+  align-items: center;
   width: 360px;
   min-height: 240px;
-  height: 100%;
+  height: auto;
   border-radius: 10px;
   /* background-color: #172043; */
+  background: #fff;
   margin-top: 20px;
   color: #111;
   border: 1px solid rgb(201 201 201);
@@ -106,6 +107,8 @@ hr {
 
 
 .card-details  {
+  width: 100%;
+  height: -webkit-fill-available;
   min-height: 190px;
   border-radius: 10px;
   padding: 26px;
@@ -171,11 +174,11 @@ hr {
   border-radius: 10px;
   background-repeat: no-repeat;
   width: 360px;
-  height: 240px;
+  height: auto;
   position: absolute;
   z-index: 0;
   display: block;
-  transform: scale(1);
+  transform: scale(.8);
   transition: .5s ease;
   /* height: auto; */
 }
